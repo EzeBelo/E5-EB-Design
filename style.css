@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*     border: red dashed 2px; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #505050;
+  width: 100vw;
+  max-width: 100%;
+}
+
+/* NavBar */
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+  background: rgb(255, 212, 93);
+  background: linear-gradient(90deg, rgba(255,212,93,1) 0%, rgba(255,194,25,1) 100%);;
+}
+
+.menu-display{
+  display: none;
+}
+
+.logo_eb {
+  height: 70px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+a {
+  color: white;
+  background-color: #f9564f;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+a:hover {
+  background-color: #cc1f19;
+}
+
+/* Hero Section */
+
+.hero-container {
+  background-color: #ffd45d;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10rem;
+}
+
+.slogan {
+  width: 400px;
+  text-align: center;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.p1 {
+  margin: 10px;
+  text-align: center;
+}
+
+.p2 {
+  margin: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.btn-hero {
+  padding: 1rem;
+}
+
+.compu-img {
+  border-radius: 20px;
+  width: 450px;
+}
+
+/* Seccion 2 Informacion*/
+
+.info-container {
+  background: #808080;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.fa-solid {
+  margin: 2rem;
+  font-size: 8rem;
+}
+
+/*  Seccion 3 Como trabajamos */
+.how-work-section {
+  background: rgb(128,128,128);
+  display: flex;
+  justify-content: center;
+}
+
+.how-work-div {
+  background-color: #6e6e6e;
+  border-radius: 20px;
+  max-width: 96%;
+  margin: 1.5rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-work-title{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.how-work-subtitle{
+  padding: 1rem;
+  text-align: center;
+}
+
+.how-work-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.fa-regular {
+  margin: 2rem;
+  font-size: 4rem;
+  color: rgb(214, 214, 214);
+}
+
+/*  Seccion 4 Productos */
+
+.products-container {
+  background-color: #ffd45d;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-title {
+  margin: 3rem auto 1.5rem auto;
+  font-size: larger;
+}
+
+.products-cards {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 2rem;
+}
+
+.product {
+  background-color:#f9564f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin: 1.5rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+
+
+.product-img {
+  width: 200px;
+  margin: 10px;
+}
+
+/* 5ta seccion - Contacto */
+
+.contact-container{
+  padding: 2rem;
+  background-color: #808080;
+  max-width: 100wh;
+}
+
+.contact-items{
+  padding: 1rem;
+  background-color: #f9564f;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info{
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title{
+  font-size:larger;
+  text-align: center;
+}
+
+.contact-cards{
+  padding: 0 1rem;
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 1rem 2rem;
+  width: 20rem;
+}
+
+.contact-card .fa-solid{
+  font-size: 2rem;
+  padding: 0;
+}
+
+.contact-card ul li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card h3{
+  text-align: center;
+}
+
+.contact-card ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.contact-img{
+display: flex;
+align-items: center;
+}
+
+.contact-img img{
+  border-radius: 20px;
+}
+
+.contact-social ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-social a{
+  color: black;
+  font-size: 3rem;
+  margin: 0 2rem;
+}
+
+/* Ultima seccion - Footer */
+
+.footer{
+  background: rgb(255, 212, 93);
+  background: linear-gradient(90deg, rgba(255,212,93,1) 0%, rgba(255,194,25,1) 100%);
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo{
+  width: 5rem;
+}
+
+.footer-text{
+  margin: 0.7rem 0 0 0;
+  text-align: center;
+}
+
+/**  Media Queries */
+
+@media (max-width: 576px) {
+
+  /* Navbar */
+
+  .nav_bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .menu-toggle{
+    display: none;
+  }
+
+  .menu-display{
+    display: block;
+  }
+
+  .menu-display i{
+    background-color: #f9564f;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 3rem;
+  }
+  
+  
+  .nav_list{
+/*     display: none; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .menu-toggle:checked + .nav_list {
+    display:block;
+  }
+  
+  .logo_eb{
+    margin: 2rem;
+  }
+
+  li{
+    margin: 5px;
+  }
+  .inicio-boton{
+    margin: 100px;
+  }
+
+  /* Primera seccion - Hero  */
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-info{
+    margin: 3rem 1rem 0 1rem;
+  }
+
+  .p2{
+    font-size: 1.5rem;
+    margin: 2rem auto 1rem auto;
+  }
+
+  .compu-img{
+    width: 300px;
+  }
+
+/* Segunda Seccion - Informacion */
+.info-container{
+  flex-direction: column;
+}
+
+.card{
+  margin: 0 auto;
+}
+
+.fa-solid{
+  font-size: 6rem; ;
+}
+
+/* Tercera Seccion - How Work */
+.how-work-cards{
+  flex-direction: column;
+}
+
+/* Cuarta Seccion - Productos */
+
+.products-cards{
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin: 1.3rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+.product-img{
+  width: 150px;
+  height: auto;
+}
+
+
+/* 5ta seccion - Contacto */
+
+.contact-items{
+  flex-direction: column;
+}
+
+.contact-info{
+  width: auto;
+}
+
+.contact-cards{
+  padding: 0;
+  width: auto;
+  flex-direction: column;
+}
+
+.contact-social a{
+  font-size: 2.5rem;
+}
+
+.contact-social{
+  margin: 1.5rem auto;
+}
+
+.contact-card .fa-solid{
+  font-size: 2rem;
+  padding: 0;
+  margin: 0.5rem 1rem;
+}
+
+.contact-img{
+  margin: 1rem;
+}
+
+.contact-img img{
+  width: 100%;
+}
+
+}
